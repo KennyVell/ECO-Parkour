@@ -50,7 +50,10 @@ header nav{
 
 ul{
     display: flex;
-  
+}
+
+.list{
+    display: block;
 }
 
 header li{
@@ -241,6 +244,45 @@ section{
 .side-img-large .img-large{
     width: 100%;
 }
+
+.info-services{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.list-services{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    gap: 40px;
+    
+}
+.item-service{
+    width: 100%;
+    position: relative;
+}
+
+.list-services .post1{
+    background-image: url("/imgs/post_1.svg");
+    background-size: cover;
+}
+.list-services .post2{
+    background-image: url("/imgs/post_2.svg");
+    background-size: cover;
+}
+.img-service{
+    width: 60%;
+    position: relative;
+    top: -40px;
+    left:10%;
+}
+
+.services-content li{
+    list-style: none; 
+    color: var(--white-primary);
+}
+
 
 label{
     font-weight: 600;
