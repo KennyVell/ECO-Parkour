@@ -286,21 +286,6 @@ section{
     background-repeat: no-repeat;
 }
 
-
-.info h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 60px;
-    color: #35213C;
-    
-}
-
-.info iframe{
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px #000;
-    border-radius: 30px;      
-
-}
-
 .cuadro-info{
     background-color: #ffffff;
     width: 440px;
@@ -310,24 +295,13 @@ section{
 
 .cuadro-info p{
     font-family: 'Noto Sans', sans-serif;
+    text-align: left;
     font-size: 20px;
     margin-top: 60px;
     margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 50px;
     margin-bottom: 60px;
-}
-
-.bi-geo-alt{
-    width: 30px;
-    height: 50px;
-
-}
-
-
-.info div, iframe{
-    display: inline-block;
-}
-
+} 
 
 .img-service{
     width: 70%;
@@ -504,3 +478,4 @@ footer .legal .info-legal{
 }
 
 footer p{color: var(--white-primary);}
+
