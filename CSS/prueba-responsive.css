@@ -1,0 +1,110 @@
+@import url("/CSS/styles.css");
+
+/* Pantallas grandes */
+@media (max-width: 1199.98px){
+    .box-content{
+        min-width:100% ;
+    }
+
+}
+
+/* Pantallas medianas o tablets */
+@media (max-width:991.98px){
+   
+
+    .section-middle{
+        width: 65%;
+    }
+
+    .contact{
+        height: auto;
+    }
+
+    .container-form{
+        width: 85%;
+    }
+
+
+}
+
+/* Pantallas pequeñas, moviles */
+@media (max-width: 767.98px){
+
+
+    section{
+        display: flex;
+        flex-direction: row;
+    }
+    .container {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .circle-large {
+        display: none;
+    }
+
+    .large{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .normal{
+        width: 100%;
+
+    }
+
+   
+
+
+
+    .list-services{
+        margin: auto;
+        height: 100%;
+        display: grid;
+        gap: 40px;
+
+    }
+
+    .list-services .post1{
+        background-image: none;
+        width: 100%;
+        
+    }
+
+        .list-services .post2{
+            background-image: none;
+                width: 100%;
+                background-color: var(--white-primary);
+        }
+
+    .container-form {
+        width: 95%;
+    }
+    .footer-content{
+        width: 90%;
+        justify-content: space-around;
+    }
+    
+}
+
+/* Pantallas  de moviles más pequeños */
+@media (max-width: 575.98px){
+    footer{
+      
+    }
+  
+    .nav-footer{
+        display: block;
+        flex-direction: column;
+        margin: 0px 0px;
+        text-align: right;
+        align-items: end;
+    }
+
+    .footer-content {
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+
+}
