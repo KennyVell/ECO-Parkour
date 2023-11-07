@@ -19,6 +19,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: var(--white-primary);
 }
 
 body {
@@ -516,7 +517,7 @@ footer .f__logo {
 .s__link {
     height: 100%;
     width: 30px;
-    background-image: url(/img/redes/001-tiktok.png);
+    background-image: url(./img/redes/001-tiktok.png);
     background-size: 90%;
     background-position: center;
     margin-right: 1rem;
@@ -531,11 +532,11 @@ footer .f__logo {
 }
 
 footer .s__link:nth-last-of-type(2) {
-    background-image: url(/img/redes/003-instagram.png);
+    background-image: url("./img/redes/003-instagram.png");
 }
 
 footer .s__link:nth-last-of-type(3) {
-    background-image: url(/img/redes/001-logotipo-de-twitter.png);
+    background-image: url("./img/redes/001-logotipo-de-twitter.png");
 }
 
 .whatsapp {
