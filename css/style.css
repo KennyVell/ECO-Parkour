@@ -273,7 +273,7 @@ h1, h1 span{
 }
 
 .bgi1 {
-    background-image: url("./img/post_1.svg");
+    background-image: url("../img/post_1.svg");
     background-repeat: no-repeat;
     background-position: 0 7rem;
     width: 18rem;
@@ -281,7 +281,7 @@ h1, h1 span{
 }
 
 .bgi2 {
-    background-image: url("./img/post_2.svg");
+    background-image: url("../img/post_2.svg");
     background-repeat: no-repeat;
     background-position: 0 7rem;
     width: 18rem;
