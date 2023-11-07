@@ -23,6 +23,7 @@ html {
 
 body {
     font-family: 'Noto Sans', sans-serif;
+    background-color: var(--white-primary);
 }
 
 h1, h1 span{
