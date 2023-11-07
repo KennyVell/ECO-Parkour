@@ -149,7 +149,7 @@ h1, h1 span{
 .head__subtitle {
     color: var(--dark-text-content);
     margin-top: 1rem;
-    margin-bottom: 1.5rem;
+    /*margin-bottom: 1.5rem;*/
     font-size: 1.2rem;
     font-weight: 300;
 }
@@ -256,6 +256,9 @@ h1, h1 span{
         padding: 0 3rem;
     }
 
+    #baner{
+        width: 80%;
+    }
 }
 
 .servicios {
@@ -264,7 +267,7 @@ h1, h1 span{
     justify-content: space-around;
     align-items: center;
     margin: 0 10%;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .bgi1 {
@@ -644,13 +647,19 @@ footer .s__link:nth-last-of-type(3) {
         font-size: 2.6rem;
     }
 
-    .head__subtitle{
-        font-size: 16px;
+    .indoor h2.gh2 span {
+        color: var(--white-primary);
+    }
+
+    p.head__subtitle{
+        font-size: 18px;
     }
     
-    .gh3,gh2{
+    h3.gh3,h2.gh2{
         font-size: 2rem;
     }
+
+
 
     .btn-cta{
         background-color: transparent;
@@ -720,6 +729,10 @@ footer .s__link:nth-last-of-type(3) {
 
     .w2 {
         display: none;
+    }
+
+    .indoor .head__subtitle{
+        margin-top: 10rem;
     }
 }
 
