@@ -19,7 +19,7 @@
 
 html {
     scroll-behavior: smooth;
-    background-color: var(--white-primary);
+    /*background-color: var(--white-primary);*/
 }
 
 body {
